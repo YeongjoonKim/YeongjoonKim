@@ -52,7 +52,7 @@ Research focus: Video Quality Assessment · Optical Flow · Frequency Analysis.
 
 ### VLM-HOI: Vision Language Models for Interpretable Human-Object Interaction Analysis
 
-**Computer Vision – ECCV 2024 Workshops, 2025**
+**ECCV 2024 Workshops, 2025**
 
 사람·객체·상호작용을 표현한 텍스트와 이미지의 VLM 유사도를 대조학습에 활용하는 연구.
 Research focus: Vision-Language Models · Human-Object Interaction · Contrastive Learning.
