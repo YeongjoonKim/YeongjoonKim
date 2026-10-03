@@ -9,8 +9,7 @@ AI 연구방법론과 시스템 설계 경험을 바탕으로, 모델 적응부�
 
 ## Selected Engineering Work
 
-하나의 도메인 AI 플랫폼을 **실행·검증 / 모델 적응 / 이미지 도구 / 데이터·리포트**의
-네 가지 책임으로 나누어 정리했습니다. 대표 실행 구조는 첫 번째 Harness 저장소에서 확인할 수 있습니다.
+실제 운영한 도메인 AI 플랫폼의 구현 경험을 **실행·검증 / 모델 적응 / 이미지 도구 / 데이터·리포트**의 네 가지 기술 책임으로 구분해 정리했습니다. 각 저장소는 하나의 AI 시스템을 서로 다른 관점에서 설명하며, 전체 실행·검증 구조는 Agent Harness 저장소를 중심으로 연결됩니다.
 
 1. [Reliable Domain Agent Harness](https://github.com/YeongjoonKim/reliable-domain-agent-harness)
    — 질문의 정보 요구, 도구 실행과 근거를 검증하는 실행 구조.
