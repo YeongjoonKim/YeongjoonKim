@@ -9,9 +9,13 @@ AI 연구방법론과 시스템 설계 경험을 바탕으로, 모델 적응부�
 
 ## Selected Engineering Work
 
+하나의 도메인 AI 플랫폼을 **실행·검증 / 모델 적응 / 이미지 도구 / 데이터·리포트**의
+네 가지 책임으로 나누어 정리했습니다. 대표 실행 구조는 첫 번째 Harness 저장소에서 확인할 수 있습니다.
+
 1. [Reliable Domain Agent Harness](https://github.com/YeongjoonKim/reliable-domain-agent-harness)
    — 질문의 정보 요구, 도구 실행과 근거를 검증하는 실행 구조.
    제한된 복구, Docker Sandbox, configuration/evidence replay와 MCP stdio 구현.
+   관리자 API·서명 실행기·컨테이너 제어와 실제 Scientific 실행 기록을 함께 제공합니다.
 2. [Efficient Fine-tuning Lab](https://github.com/YeongjoonKim/efficient-finetuning-lab)
    — QLoRA 학습·실험 관리·vLLM adapter serving 경험과 별도의 CPU 재현 예제.
 3. [Multimodal Domain AI](https://github.com/YeongjoonKim/multimodal-domain-ai)
@@ -21,6 +25,12 @@ AI 연구방법론과 시스템 설계 경험을 바탕으로, 모델 적응부�
 
 각 저장소는 운영 경험을 설명하는 문서·화면과 독립적으로 작성한 공개 참조 구현을 담습니다.
 공개 예제의 합성 평가와 운영 모델·서비스 평가는 구분합니다.
+
+| 확인할 내용 | 바로 보기 |
+|---|---|
+| 전체 실행 구조 | [운영 상담·Scientific Runtime·Public Core](https://github.com/YeongjoonKim/reliable-domain-agent-harness/blob/main/docs/architecture/01_system_architecture.svg) |
+| 실행 권한과 운영 제어 | [관리자 API → 서명 요청 → 호스트 실행기](https://github.com/YeongjoonKim/reliable-domain-agent-harness/blob/main/docs/execution-control.md) |
+| 검증·재현과 비용 관측 | [실제 저장된 실행·인용·모델 사용량](https://github.com/YeongjoonKim/reliable-domain-agent-harness/blob/main/docs/scientific-execution.md) · [실행 가능한 공개 코어](https://github.com/YeongjoonKim/reliable-domain-agent-harness/blob/main/docs/public-core.md) |
 
 ## Selected Research
 
