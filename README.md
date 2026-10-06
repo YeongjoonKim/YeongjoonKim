@@ -68,6 +68,6 @@ Research focus: Vision-Language Models · Human-Object Interaction · Contrastiv
 
 ## Engineering
 
-Python · FastAPI · Docker · vLLM · PostgreSQL · Vector Search
+Fullstack · Python · FastAPI · Docker · vLLM · PostgreSQL · Vector Search · MSSql
 
 LLM Agents · RAG · Model Adaptation · Evidence Verification · AI Serving
